@@ -74,8 +74,8 @@ CREATE DATABASE vehicle_trading_db;
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/vehicle_trading_db
-    username: your_postgres_username
-    password: your_postgres_password
+    username: postgres
+    password: 27021
 
   security:
     oauth2:
