@@ -58,7 +58,7 @@ src/main/java/com/vehicletrading/
 
 ### 1. Prerequisites
 
-- Java 17+
+- Java 21+
 - Maven 3.8+
 - PostgreSQL running locally
 
@@ -257,8 +257,8 @@ To test protected endpoints in Swagger:
 ```bash
 POST /api/auth/register
 {
-  "username": "john",
-  "email": "john@example.com",
+  "username": "Esther",
+  "email": "eiradukunda874@gmail.com",
   "password": "secret123"
 }
 ```
@@ -267,8 +267,8 @@ POST /api/auth/register
 ```bash
 POST /api/auth/login
 {
-  "username": "john",
-  "password": "secret123"
+  "username": "Esther",
+  "password": "27021"
 }
 ```
 
@@ -276,8 +276,8 @@ POST /api/auth/login
 ```json
 {
   "token": "eyJhbGciOiJIUzI1NiJ9...",
-  "username": "john",
-  "role": "ROLE_USER"
+  "username": "ESTHER",
+  "role": "ADMIN_USER"
 }
 ```
 
